@@ -9,5 +9,4 @@
  
  
  
- $('#hide_this').click( () => $(this).hide();
- );
+ $('#hide_this').click( () => $(this).hide() );
