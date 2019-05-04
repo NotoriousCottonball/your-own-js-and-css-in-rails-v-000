@@ -9,4 +9,4 @@
  
  
  
- $('#hide_this').click(e => $(e.target).hide()); 
+ $('#hide_this').click(e => { return $(e.target).hide() }); 
