@@ -1,1 +1,2 @@
-$('#hide_this').click(event => $(event.target).hide()); 
+$('#hide_this').click(e => {
+  $(e.target).hide()); 
