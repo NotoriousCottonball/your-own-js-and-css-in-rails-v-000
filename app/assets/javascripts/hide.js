@@ -10,8 +10,5 @@
  
  
  $('#hide_this').click(e => {
-   console.log(e);
-   console.log(e.target);
    return $(e.target).hide();
-  
  });
